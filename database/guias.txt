@@ -1,0 +1,19 @@
+Paso 1) Instalación de PostgreSQL y pgAdmin
+---------------------------------------------------------------------------------------------------------------------------------------
+Paso 2) Creación de una nueva base de datos:
+Abre pgAdmin y conéctate a tu servidor PostgreSQL. 
+Una vez conectado, haz clic derecho en "Databases" y selecciona "Create > Database". 
+Asigna un nombre a tu base de datos, por ejemplo, "GraphQL"
+-------------------------------------------------------------------------------------------------------------------------------------
+Paso 3) Configuración de las variables de entorno
+DB_HOST=localhost
+DB_PORT=5432
+DB_DATABASE=GraphQL
+DB_USER=postgres
+DB_PASSWORD=admin
+NODE_ENV=development
+Asegúrate de que DB_HOST, DB_PORT, DB_DATABASE, DB_USER, 
+y DB_PASSWORD coincidan con la configuración de tu base de datos en PostgreSQL.
+------------------------------------------------------------------------------------------------------------------------------------
+
+

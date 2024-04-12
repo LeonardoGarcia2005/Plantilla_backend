@@ -1,0 +1,5 @@
+INSERT INTO usuarios (name, password, email)
+VALUES
+  ('LunaEstelar', 'password1', 'luna.estelar@example.com'),
+  ('AventureroGalactico', 'password2', 'aventurero@example.com'),
+  ('ExploradorNebuloso', 'password3', 'explorador.nebuloso@example.com');
